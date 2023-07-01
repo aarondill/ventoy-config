@@ -1,0 +1,63 @@
+# Global properties
+title-text: "Ventoy"
+title-font: "Unifont Regular 22"
+title-color: "#FFFFFF"
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Unifont Regular 18"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  top = 15%
+  height = 100%-15%-80
+  left = 15%
+  width = 70%
+  item_font = "Unifont Regular 18"
+  item_color = "#FFFFFF"
+  selected_item_color = "#FFFFFF"
+  item_height = 40
+  item_spacing = 4
+  item_pixmap_style = "item_*.png"
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
+# Countdown message
++ label {
+  left = 0
+  top = 100%-72
+  width = 100%
+  align = "center"
+  id = "__timeout__"
+  text = "Booting in %d seconds"
+  color = "#FFFFFF"
+  font = "Unifont Regular 18"
+}
+
+# Ventoy mappings
++ label {
+  left = 0
+    top = 100%-24
+    width = 100%
+    align = "center"
+    text = "@VTOY_HOTKEY_TIP@"
+    color = "#FFFFFF"
+    font = "Unifont Regular 18"
+}
+
+# Navigation keys hint
++ label {
+  left = 0
+  top = 100%-48
+  width = 100%
+  align = "center"
+  text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
+  color = "#FFFFFF"
+  font = "Unifont Regular 18"
+}
+

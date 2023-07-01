@@ -1,0 +1,177 @@
+{
+  "control": [
+    {
+      "//": "Make sure linux can access the Ventoy disk",
+      "VTOY_LINUX_REMOUNT": "1"
+    },
+    {
+      "//": "ONLY search the /iso directory for files",
+      "VTOY_DEFAULT_SEARCH_ROOT": "/iso"
+    }
+  ],
+  "theme": {
+    "//": "Move the ventoy version info",
+    "ventoy_left": "0%",
+    "ventoy_top": "0%",
+    "ventoy_color": "#FFFFFF",
+
+    "//": "Set the theme files",
+    "file": "/ventoy/themes/poly-dark/theme.txt"
+  },
+
+  "//": "Make icons work correctly",
+  "menu_class": [
+    {
+      "key": "Acronis",
+      "class": "acronis"
+    },
+    {
+      "key": "AOMEI",
+      "class": "aomei"
+    },
+    {
+      "key": "arch-",
+      "class": "archlinux"
+    },
+    {
+      "key": "archlinux-",
+      "class": "archlinux"
+    },
+    {
+      "key": "CentOS-",
+      "class": "centos"
+    },
+    {
+      "key": "clonezilla-",
+      "class": "clonezilla"
+    },
+    {
+      "key": "debian-",
+      "class": "debian"
+    },
+    {
+      "key": "deepin-",
+      "class": "deepin"
+    },
+    {
+      "key": "elementaryos-",
+      "class": "elementaryos"
+    },
+    {
+      "key": "Fedora-",
+      "class": "fedora"
+    },
+    {
+      "key": "Ghost",
+      "class": "ghost"
+    },
+    {
+      "key": "linuxmint-",
+      "class": "linuxmint"
+    },
+    {
+      "key": "macOS",
+      "class": "macosx"
+    },
+    {
+      "key": "openSUSE-",
+      "class": "opensuse"
+    },
+    {
+      "key": "Symantec",
+      "class": "symantec"
+    },
+    {
+      "key": "Win_7",
+      "class": "windows_7"
+    },
+    {
+      "key": "Win7",
+      "class": "windows_7"
+    },
+    {
+      "key": "Win8",
+      "class": "windows_8"
+    },
+    {
+      "key": "Win10",
+      "class": "windows_10"
+    },
+    {
+      "key": "Win11",
+      "class": "windows_11"
+    },
+    {
+      "key": "windows_7",
+      "class": "windows_7"
+    },
+    {
+      "key": "windows_8",
+      "class": "windows_8"
+    },
+    {
+      "key": "windows_10",
+      "class": "windows_10"
+    },
+    {
+      "key": "windows_11",
+      "class": "windows_11"
+    },
+    {
+      "key": "WindowsXP",
+      "class": "windows_xp"
+    },
+    {
+      "key": "WinXP",
+      "class": "windows_xp"
+    },
+    {
+      "key": "kubuntu-",
+      "class": "kubuntu"
+    },
+    {
+      "key": "lubuntu-",
+      "class": "lubuntu"
+    },
+    {
+      "key": "xubuntu-",
+      "class": "xubuntu"
+    },
+    {
+      "key": "ubuntu-",
+      "class": "ubuntu"
+    },
+    {
+      "key": "ventoy-",
+      "class": "ventoy"
+    },
+    {
+      "key": "systemrescuecd",
+      "class": "SystemRescueCD"
+    },
+    {
+      "key": "systemrescue",
+      "class": "SystemRescueCD"
+    },
+    {
+      "dir": "/_ISO/Linux",
+      "class": "linux"
+    },
+    {
+      "dir": "/_ISO/macOS",
+      "class": "macosx"
+    },
+    {
+      "dir": "/_ISO/Utility",
+      "class": "utility"
+    },
+    {
+      "dir": "/_ISO/Windows",
+      "class": "windows"
+    },
+    {
+      "dir": "/_ISO/WinPE",
+      "class": "win_pe"
+    }
+  ]
+}
